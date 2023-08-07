@@ -7,7 +7,7 @@ const Home = () => {
     return ( 
         <div className="home-container">
             <div className="wrapp-align">
-                <h1 className="name">Hi, I'am <span>Yodit Abebe</span></h1>
+                <h1 className="name">Hey there !<span>I'am Yodit Abebe</span></h1>
                 <h4 className="profession">Full Stack Developer</h4>
                 <p className="abt">I enjoy bridging the gap between engineering and design — 
                 combining my technical knowledge with my keen eye for design to create a beautiful product. 
