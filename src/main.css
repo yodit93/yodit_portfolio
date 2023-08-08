@@ -92,30 +92,30 @@ ul {
     margin: 1rem 0;
 }
 
-.social-media-links-header {
+.social-media-links {
     display: flex;
     align-items: center;
     gap: 1rem;
     margin-bottom: 2rem;
 }
 
-.wrapp-align li a {
+.social-media-links li a {
     display: flex;
     align-items: center;
     gap: 1rem;
     margin-bottom: 2rem;
 }
 
-.wrapp-align li a svg {
+.social-media-links li a svg {
+    height:1.2rem;
+    width: 1.2rem;
+    transition: ease 1s;
+}
+
+.social-media-links li a svg:hover {
+    color: #00abf0;
     height:1.5rem;
     width: 1.5rem;
-    transition: ease 0.5s;
-}
-
-.wrapp-align li a svg:hover {
-    color: #00abf0;
-    border: 2px solid #0d1518;
-    border-radius: 50%;
 }
 
 .welcome-cont {
@@ -246,6 +246,173 @@ ul {
     background-color: #ebebeb;
 }
 
+/* about */
+.about-me {
+    padding: 1rem;
+    border-top-right-radius: 70px;
+  }
+  
+  .self-intro {
+    padding: 0;
+    gap: 12px;
+  }
+  
+  .set-margin {
+    margin: 0 0 12px 0;
+  }
+  
+  .title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #172b4d;
+  }
+  
+  .about-desc {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #344563;
+  }
+  
+  .social-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #7f8cff;
+  }
+  
+  .social-media-links.about li a {
+    margin-bottom: 0;
+    color: #172b4d;
+  }
+  
+  .resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 162px;
+    height: 48px;
+    padding: 12px;
+    gap: 10px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    transition: ease-in-out 0.8s;
+  }
+
+  .resume:hover{
+    width: 180px;
+    height: 60px;
+    background-color: #efefef;
+    border: 0;
+    box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.15);
+  }
+  
+  .resume a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #396df2;
+    text-decoration: none;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  .additional-info {
+    list-style-type: none;
+  }
+  
+  .div-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .with-border {
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .div-flex h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    margin-left: 12px;
+    color: #253858;
+  }
+
+  .div-flex button {
+    border: none;
+    outline: none;
+    padding-top: 20px;
+    margin-right: 1rem;
+    background-color: transparent;
+  }
+
+  .lang-btn {
+    margin-right: 50px;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    height: 66.72px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding-left: 1rem;
+  }
+  
+  .flex-img {
+    width: 48px;
+    height: 48px;
+    margin: 9px 16px 9.72px 12px;
+  }
+  
+  .flex p {
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #253858;
+  }
+
+  .react-icons {
+    color: #253858;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin: 9px 16px 9.72px 12px;
+  }
+
+  .react-icons.lang-btn {
+    margin-right: 2.2rem;
+  }
+  
+  .hide-list {
+    display: none;
+  }
+
+  .rotate {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .rotate-lang {
+    transform: rotate(-90deg);
+    transition: transform 0.3s ease-in-out;
+  }
+
 @media screen and (min-width: 768px) {
     .home-container {
         height: 100%;
@@ -335,5 +502,32 @@ ul {
     .project-picture-container {
        width: 100%; 
        margin: 0; 
-    }  
+    }
+    
+    /* about */
+
+    .self-intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .additional-info {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+    }
+
+    .div-flex button {
+        display: none;
+    }
+    
+  .hide-list {
+    display: block;
+  } 
+    
 }

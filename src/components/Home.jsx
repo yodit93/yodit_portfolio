@@ -16,7 +16,7 @@ const Home = () => {
                     don’t hestiate to contact me.
                 </p>
                 <p className="supporting-text">LET'S CONNECT</p>
-                <ul className="social-media-links-header">
+                <ul className="social-media-links">
                     <li><a href="https://twitter.com/yodtwit"><FontAwesomeIcon icon={faTwitter} /></a></li>
                     <li><a href="https://www.linkedin.com/in/yodit-abebe-ayalew/"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
                     <li><a href="https://medium.com/@yoditabebe9391"><FaMediumM className="medium"/></a></li>
