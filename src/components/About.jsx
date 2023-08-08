@@ -30,7 +30,11 @@ const About = () => {
        <section className="about-me">
             <section className="self-intro">
                 <h1 className="title set-margin">About Myself</h1>
-                <p className="about-desc set-margin">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                <p className="about-desc set-margin">Hello,👏 I’m a software developer! My journey in the world of development began when 
+                I tinkered with my first lines of code and realized the power of turning ideas into reality. Since then, 
+                I've been on an exciting quest to continually expand my skill set and stay up-to-date with the ever-evolving tech landscape. 
+                From HTML and CSS to JavaScript frameworks like React and back-end technologies like Ruby on Rails and databases like PostgreSQL, 
+                I've honed my abilities across the stack. I'm excited to connect and open to new opportunities.</p>
                 <p className="social-text set-margin">LET’S CONNECT</p>
                 <ul className="social-media-links about">
                     <li><a href="https://twitter.com/yodtwit"><FontAwesomeIcon icon={faTwitter} /></a></li>
