@@ -14,12 +14,13 @@ body {
 .container {
     width: 100vw;
     height: 100vh;
+    background-color: #112e42;
 }
 
 .home-container {
     width: 100%;
     background-color: #112e42;
-    overflow: auto;
+    overflow: hidden;
 }
 
 a {
@@ -41,19 +42,60 @@ a {
     z-index: 5;
 }
 
-.navbar .profile-img {
-    width: 2.3rem;
-    height: 2.3rem;
-    border-radius: 50%;
-    object-fit: cover;
+.navbar .name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ededed;
+    cursor: pointer;
+    transition: ease-in-out 1s;
 }
+
+.name:hover,
+.name:active {
+    color: #00abf0;
+    font-size: 1.2rem;
+}
+
+.name.active {
+    color: #00abf0;
+}
+
+.click-event {
+    display: none;
+  }
+  
+  .click-event.show {
+    display: block;
+    position: absolute;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(9, 30, 195, 0.65);
+    backdrop-filter: blur(6px);
+  }
+  
+  .close-btn {
+    position: absolute;
+    font-size: 1.3rem;
+    color: white;
+    left: 90%;
+    right: 0;
+    top: 4%;
+  }
 
 .hum-icon {
     height: 2rem;
 }
 
 .nav-links {
-    display: none;
+    padding: 4rem 2rem;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .wrapp-align {
@@ -249,7 +291,7 @@ ul {
 /* about */
 .about-me {
     padding: 1rem;
-    border-top-right-radius: 70px;
+    background-color: white;
   }
   
   .self-intro {
@@ -416,7 +458,9 @@ ul {
   /* contact section */
 
 .contact-sec {
-  padding: 2rem;  
+  padding: 2rem;
+  background-color: white;
+  height: 100%; 
 }
   
   .contact-form {
@@ -552,17 +596,26 @@ ul {
         padding: 0 5rem;
     }
 
-    .navbar .profile-img {
-        width: 3rem;
-        height: 3rem;
-    }
-
     .hum-icon {
         display: none;
     }
+
+    .click-event {
+        display: block;
+    }
+
+    .close-btn {
+        display: none;
+    }
+
     .nav-links {
-        display: flex;
+       flex-direction: row;
+        font-size: 1rem;
         gap: 1rem;
+    }
+
+    .link-home {
+        display: none;
     }
 
     .nav-links a {
