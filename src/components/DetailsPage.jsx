@@ -28,8 +28,8 @@ const DetailsPage = () => {
                                     ))}
                                 </ul>
                                 <div className="see-demo-cont">
-                                    <a href={project.demo}>See Live</a>
-                                    <a href={project.source}>See source</a>
+                                    <Link to={project.demo}>See Demo</Link>
+                                    <Link to={project.source}>See Source</Link>
                                 </div>
                             </div>
                         </section>
@@ -37,20 +37,27 @@ const DetailsPage = () => {
                 </div>
                 <div className="desktop-details">
                     {desktopProjects.filter((project) => project.id === id).map((project) => (
-                        <section className="project" key={project.id}>
-                            <h1 className="project-name">{project.name}</h1>
-                            <figure className="project-image-container">
-                                <img className="project-image" src={project.featuredImage} alt={project.name}/>
-                            </figure>
-                            <div className="proj-details">     
-                                <p className="proj-description">{project.description}</p>
-                                <ul className="proj-stacks">
-                                    {project.technologies.map((tech) => (
-                                        <li className="proj-tech" key={tech}>{tech}</li>
-                                    ))}
-                                </ul>
+                        <section className="project-details-cont" key={project.id}>
+                            <div className="project-details-page">
+                                <figure className="project-image-container">
+                                    <img className="project-image" src={project.featuredImage} alt={project.name}/>
+                                </figure>
+                                <div className="proj-details">
+                                    <h1>{project.name}</h1>    
+                                    <p className="proj-description">{project.description}</p>
+                                    <ul className="proj-stacks">
+                                        {project.technologies.map((tech) => (
+                                            <li className="proj-tech" key={tech}>{tech}</li>
+                                        ))}
+                                    </ul>
+                                    <div className="see-demo-cont">
+                                        <Link to={project.demo}>See Demo</Link>
+                                        <Link to={project.source}>See Source</Link>
+                                    </div>
+                                </div>
                             </div>
-                    </section>
+                            
+                        </section>
                     ))}
                 </div>
             </div>
