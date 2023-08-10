@@ -17,7 +17,7 @@ const Navigation = () => {
             <FontAwesomeIcon className="hum-icon" icon={faBars} onClick={handleShow}/>
             <div className="click-event" ref={navList}>
                 <div className="close-btn" ref={closeBtn} onClick={handleHide}>&#10005;</div>
-                <div className="nav-links">
+                <div className="nav-links" onClick={handleHide}>
                     <NavLink className="navlink link-home" to="/">Home</NavLink>
                     <NavLink className="navlink" to="/portfolio">Portfolio</NavLink>
                     <NavLink className="navlink" to="/about">About</NavLink>
