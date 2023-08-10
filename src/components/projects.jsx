@@ -40,14 +40,14 @@ export const desktopProjects = [
       source: 'https://github.com/yodit93/todo-app-react',
     },
     {
-      name: 'Youtube Video Page',
+      name: 'Math Magician',
       id: 'id5',
-      featuredImage: '/src/assets/image/youtube-video-page.png',
+      featuredImage: '/src/assets/image/math-magician.png',
       description:
-      'Youtube video page is a static website designed to look like the Youtube video page. It shows the main video and the list of videos on the right side.',
-      technologies: ['HTML', 'CSS', 'JavaScript'],
-      demo: 'https://math-magicians-full-website.onrender.com',
-      source: 'https://github.com/yodit93/youtube-video-page',
+      'Math-magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to do different calculations using the Math JS library. It is built with React and it is fully responsive.',
+      technologies: ['React', 'Redux', 'CSS'],
+      demo: 'https://math-magicians-full-website.onrender.com/',
+      source: 'https://github.com/yodit93/Math-magicians',
     },
     {
       name: 'Movie App',

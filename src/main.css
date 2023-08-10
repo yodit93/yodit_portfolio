@@ -13,7 +13,7 @@ body {
 
 .container {
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     background-color: #112e42;
 }
 
@@ -603,7 +603,7 @@ ul {
   .details-page {
     position: relative;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     padding: 1rem 0;
     background-color: #ebebeb;
   }
@@ -651,8 +651,8 @@ ul {
     display: flex;
     justify-content: center;
     width: 90%;
-    margin: auto;
-    height: 260px;
+    margin: 0 auto;
+    height: 230px;
     position: relative;
   }
 
@@ -665,7 +665,7 @@ ul {
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin: auto;
+    margin: 0 auto;
     color: #344563;
     font-size: 0.7rem;
     font-weight: 600;
@@ -905,7 +905,7 @@ ul {
 
   .project-image-container {
     width: 100%;
-    height: 95%;
+    height: 85%;
   }
 
   .proj-details {
