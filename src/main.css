@@ -8,12 +8,12 @@
 body {
     color: #ededed;
     font-family: 'Poppins', sans-serif;
-    padding-top: 79px;
+    padding-top: 70px;
 }
 
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-color: #112e42;
 }
 
@@ -33,7 +33,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 70px;
     padding: 0 1rem;
     position: fixed;
     top: 0;
@@ -50,8 +50,8 @@ a {
     transition: ease-in-out 1s;
 }
 
-.name:hover,
-.name:active {
+.navbar .name:hover,
+.navbar .name:active {
     color: #00abf0;
     font-size: 1.2rem;
 }
@@ -72,21 +72,30 @@ a {
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(9, 30, 195, 0.65);
+    background-color: #22404dd4;
     backdrop-filter: blur(6px);
   }
   
   .close-btn {
     position: absolute;
     font-size: 1.3rem;
+    font-weight: 500;
     color: white;
     left: 90%;
     right: 0;
     top: 4%;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+  }
+
+  .close-btn:hover {
+    color: rgb(187, 17, 17);
+    font-size: 1.5rem;
   }
 
 .hum-icon {
     height: 2rem;
+    cursor: pointer;
 }
 
 .nav-links {
@@ -174,7 +183,7 @@ ul {
 }
 
  .portfolio-title {
-    color: #00abf0;
+    color: #172b4d;
     line-height: 1;
     font-size: 1.5rem;
     font-weight: 700;
@@ -182,7 +191,7 @@ ul {
     text-align: center;
 }
 
-.portfolio {
+.portfolio.mobile {
     height: 100%;
     width: 100%;
     display: flex;
@@ -190,10 +199,14 @@ ul {
     gap: 1rem;
 }
 
+.portfolio.desktop {
+  display: none;
+}
+
  .project-picture-container {
-    width: 90%;
+    width: 85%;
     margin: auto;
-    height: 300px;
+    height: 310px;
     position: relative;
 }
 
@@ -583,7 +596,118 @@ ul {
   .end > img {
     margin-top: 21px;
     margin-bottom: 8px;
-  }  
+  } 
+  
+  /* details page */
+
+  .details-page {
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    padding: 1rem 0;
+    background-color: #ebebeb;
+  }
+
+  .details-close-btn {
+    position: absolute;
+    top: -15px;
+    right: 0;
+    margin: 1rem;
+    cursor: pointer;
+    color: #0b65c6;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .details-close-btn:hover {
+    color:rgb(187, 17, 17);
+    font-size: 1.7rem;
+  }
+
+  .mobile-details {
+    height: 100%;
+  }
+
+  .desktop-details {
+    display: none;
+  }
+
+  .project-details-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100%;
+  }
+
+  .project-details-cont h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: rgb(8, 46, 81);
+    text-align: center;
+  }
+
+  .project-image-container {
+    display: flex;
+    justify-content: center;
+      width: 90%;
+      margin: auto;
+      height: 260px;
+      position: relative;
+  }
+
+  .project-image-container img {
+      width: 100%;
+      height: 100%;
+  }
+
+  .proj-details {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    color: #344563;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+
+  .proj-stacks {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0;
+    color: white
+  }
+
+  .proj-stacks li {
+    padding: 0.2rem;
+    background-color: #353535;
+  }
+
+  .see-demo-cont {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+  }
+
+  .see-demo-cont a{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #996e09;
+    transition: ease-in-out 1s;
+  }
+
+  .see-demo-cont a:hover {
+    color: #042a4b;
+    background-color: #dadad8;
+    box-shadow: 5px 1px 1px 7px #dadad8;
+  }
+
+ 
 
 @media screen and (min-width: 768px) {
     .home-container {
@@ -665,8 +789,14 @@ ul {
         height: 100%;
         border-top-left-radius: 600px;
       }
+
+      .portfolio.mobile {
+        display: none;
+      }
       
-    .portfolio {
+    .portfolio.desktop {
+        display: flex;
+        gap: 1rem;
         width: 90%;
         margin: auto;
         display: grid;
@@ -676,7 +806,7 @@ ul {
     }
 
     .portfolio-title {
-        font-size: 2rem;
+        font-size: 2.2rem;
         margin: 3rem 0;
     }
 
@@ -748,4 +878,15 @@ ul {
     font-weight: 400;
     text-align: start;
   }
+
+  /* details page */
+
+  .mobile-details {
+    display: none;
+  }
+
+  .desktop-details {
+    display: flex;
+  }
+
 }
