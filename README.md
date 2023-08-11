@@ -83,7 +83,7 @@ Clone this repository to your desired folder:
 
 - GitHub: [yodit93](https://github.com/yodit93)
 - Twitter: [@yodtwit](https://twitter.com/yodtwit)
-- LinkedIn: [Yodit Abebe](linkedin.com/in/yodit-abebe-a97a68140)
+- LinkedIn: [Yodit Abebe](https://www.linkedin.com/in/yodit-abebe-ayalew/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
