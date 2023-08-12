@@ -20,7 +20,7 @@ const Portfolio = () => {
                                     </ul>
                                 </div>
                                 <div className="proj-link-cont">
-                                    <Link className="project-link" to={`/details/${project.id}`}>See Project</Link>
+                                    <Link className="project-link" to={`/yodit_portfolio/details/${project.id}`}>See Project</Link>
                                 </div>
                             </div>
                         </figure>
@@ -43,7 +43,7 @@ const Portfolio = () => {
                                     </ul>
                                 </div>
                                 <div className="proj-link-cont">
-                                    <Link className="project-link" to={`/details/${project.id}`}>See Project</Link>
+                                    <Link className="project-link" to={`/yodit_portfolio/details/${project.id}`}>See Project</Link>
                                 </div>
                             </div>
                         </figure>

@@ -7,7 +7,7 @@ const DetailsPage = () => {
     const detailsPage = useRef(null);
     const navigation = useNavigate();
     const handleNavigate = () => {
-        navigation('/portfolio');
+        navigation('/yodit_portfolio/portfolio');
     };
     return ( 
         <>
