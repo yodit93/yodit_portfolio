@@ -29,7 +29,7 @@ a {
   color: #ededed;
 }
 
-.navbar {
+.nav-bar {
   background-color: #113952;
   display: flex;
   align-items: center;
@@ -43,7 +43,7 @@ a {
   z-index: 5;
 }
 
-.navbar .name {
+.nav-bar .my-name {
   font-size: 1.3rem;
   font-weight: 700;
   color: #ededed;
@@ -51,14 +51,13 @@ a {
   transition: ease-in-out 1s;
 }
 
-.navbar .name:hover,
-.navbar .name:active {
+.nav-bar .my-name.active {
   color: #00abf0;
-  font-size: 1.2rem;
 }
 
-.name.active {
+.nav-bar .my-name:hover {
   color: #00abf0;
+  font-size: 1.4rem;
 }
 
 .click-event {
@@ -707,7 +706,7 @@ ul {
     align-items: center;
   }
 
-  .navbar {
+  .nav-bar {
     padding: 0 5rem;
   }
 
@@ -737,13 +736,12 @@ ul {
     transition: ease-in-out 1s;
   }
 
-  .nav-links a:hover,
-  .nav-links a:active {
+  .nav-link:hover {
     color: #00abf0;
     font-size: 0.9rem;
   }
 
-  .nav-links .active {
+  .nav-link.active {
     color: #00abf0;
   }
 

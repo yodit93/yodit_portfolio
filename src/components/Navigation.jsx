@@ -12,16 +12,16 @@ const Navigation = () => {
         navList.current.classList.remove('show');
     };
     return (
-        <nav className="navbar">
-           <NavLink className="name" to="/yodit_portfolio">Yodit A.</NavLink>
+        <nav className="nav-bar">
+           <NavLink className="my-name" to="/">Yodit A.</NavLink>
             <FontAwesomeIcon className="hum-icon" icon={faBars} onClick={handleShow}/>
             <div className="click-event" ref={navList}>
                 <div className="close-btn" ref={closeBtn} onClick={handleHide}>&#10005;</div>
                 <div className="nav-links" onClick={handleHide}>
-                    <NavLink className="navlink link-home" to="/yodit_portfolio">Home</NavLink>
-                    <NavLink className="navlink" to="/yodit_portfolio/portfolio">Portfolio</NavLink>
-                    <NavLink className="navlink" to="/yodit_portfolio/about">About</NavLink>
-                    <NavLink className="navlink" to="/yodit_portfolio/contact">Contact</NavLink>
+                    <NavLink className="link-home" to="/">Home</NavLink>
+                    <NavLink className="nav-link" to="/yodit_portfolio/portfolio">Portfolio</NavLink>
+                    <NavLink className="nav-link" to="/yodit_portfolio/about">About</NavLink>
+                    <NavLink className="nav-link" to="/yodit_portfolio/contact">Contact</NavLink>
                 </div>
             </div>
         </nav>

@@ -13,7 +13,7 @@ function App() {
         <div className="container">
           <Navigation />
           <Routes>
-            <Route path="yodit_portfolio/" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/yodit_portfolio/portfolio" element={<Portfolio />} />
             <Route path="/yodit_portfolio/about" element={<About />} />
             <Route path="/yodit_portfolio/contact" element={<Contact />} />
