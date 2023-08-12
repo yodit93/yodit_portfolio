@@ -1,8 +1,16 @@
+import gems from '../assets/image/gems1.png';
+import awesomeBooks from '../assets/image/awesome-books.png';
+import pokemon from '../assets/image/pokemon.png';
+import todoList from '../assets/image/todo-list.png';
+import mathMagician from '../assets/image/math-magician.png';
+import movieApp from '../assets/image/movieapp.png';
+import budgetApp from '../assets/image/budget-app.png';
+
 export const desktopProjects = [
     {
       name: 'GEMS',
       id: 'id1',
-      featuredImage: '/src/assets/image/gems1.png',
+      featuredImage: gems,
       description:
       'A GEMS website helps motivational speech lovers to get information about the program details',
       technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -12,7 +20,7 @@ export const desktopProjects = [
     {
       name: 'Awesome Books',
       id: 'id2',
-      featuredImage: '/src/assets/image/awesome-books.png',
+      featuredImage: awesomeBooks,
       description:
       'Awesome books is a simple website that displays a list of books and allows users to add and remove books from that list.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -22,7 +30,7 @@ export const desktopProjects = [
     {
       name: 'PoKemon',
       id: 'id3',
-      featuredImage: '/src/assets/image/pokemon.png',
+      featuredImage: pokemon,
       description:
       'A pokemon website is designed for children and for adults who used to love pokemon games in their childhood. From the website, users could access the different creatures which inhabit the world of pokemon games. Users can give like for the creatures which they liked most and can also write their insights in the comments portion.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -32,7 +40,7 @@ export const desktopProjects = [
     {
       name: 'Todo List',
       id: 'id4',
-      featuredImage: '/src/assets/image/todo-list.png',
+      featuredImage: todoList,
       description: 
       'To-do list is a website which helps to organize tasks performed in a particular day. It lists the things that need to do and allows you to mark them as complete.',
       technologies: ['React', 'CSS3'],
@@ -42,7 +50,7 @@ export const desktopProjects = [
     {
       name: 'Math Magician',
       id: 'id5',
-      featuredImage: '/src/assets/image/math-magician.png',
+      featuredImage: mathMagician,
       description:
       'Math-magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to do different calculations using the Math JS library. It is built with React and it is fully responsive.',
       technologies: ['React', 'Redux', 'CSS'],
@@ -52,7 +60,7 @@ export const desktopProjects = [
     {
       name: 'Movie App',
       id: 'id6',
-      featuredImage: '/src/assets/image/movieapp.png',
+      featuredImage: movieApp,
       description:
       'Movie App is a dynamic website built with react components and redux store. It allows users to access list of movies or shows. It is responsive and can be used on mobile devices. The project was built using the YouTube video lesson by Dipesh Malvia',
       technologies: ['React', 'Redux', 'CSS3'],
@@ -65,7 +73,7 @@ export const mobileProjects = [
   {
     name: 'GEMS',
     id: 'id1',
-    featuredImage: '/src/assets/image/gems1.png',
+    featuredImage: gems,
     description:
     'A GEMS website helps motivational speech lovers to get information about the program details',
     technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -75,7 +83,7 @@ export const mobileProjects = [
   {
     name: 'PoKemon',
     id: 'id2',
-    featuredImage: '/src/assets/image/pokemon.png',
+    featuredImage: pokemon,
     description:
     'A pokemon website is designed for children and for adults who used to love pokemon games in their childhood. From the website, users could access the different creatures which inhabit the world of pokemon games. Users can give like for the creatures which they liked most and can also write their insights in the comments portion.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -85,7 +93,7 @@ export const mobileProjects = [
   {
     name: 'Movie App',
     id: 'id3',
-    featuredImage: '/src/assets/image/movieapp.png',
+    featuredImage: movieApp,
     description:
     'Movie App is a dynamic website built with react components and redux store. It allows users to access list of movies or shows. It is responsive and can be used on mobile devices. The project was built using the YouTube video lesson by Dipesh Malvia',
     technologies: ['React', 'Redux', 'CSS3'],
@@ -95,7 +103,7 @@ export const mobileProjects = [
   {
     name: 'Budget App',
     id: 'id4',
-    featuredImage: '/src/assets/image/budget-app.png',
+    featuredImage: budgetApp,
     description:
     'Budget app is a mobile application that allows users to create a budget and track their expenses. The user can create a budget category and add expenses to it.',
     technologies: ['Ruby on Rails', 'CSS3', 'Bootstrap'],
