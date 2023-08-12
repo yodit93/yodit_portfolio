@@ -274,7 +274,7 @@ ul {
   font-size: 0.8rem;
   padding: 2px 0.5rem;
   border-radius: 2px;
-  background-color: rgb(26, 27, 24);
+  background-color: rgb(16, 16, 16);
 }
 
 .proj-link-cont {
@@ -671,7 +671,7 @@ ul {
 
 .proj-stacks li {
   padding: 0.2rem;
-  background-color: #353535;
+  background-color: #2e2d2d;
 }
 
 .see-demo-cont {

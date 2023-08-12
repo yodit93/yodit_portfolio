@@ -43,7 +43,7 @@ export const desktopProjects = [
       featuredImage: todoList,
       description: 
       'To-do list is a website which helps to organize tasks performed in a particular day. It lists the things that need to do and allows you to mark them as complete.',
-      technologies: ['React', 'CSS3'],
+      technologies: ['HTML', 'CSS3', 'JavaScript', 'Webpack'],
       demo: 'https://todo-app-with-react.onrender.com',
       source: 'https://github.com/yodit93/todo-app-react',
     },
@@ -53,7 +53,7 @@ export const desktopProjects = [
       featuredImage: mathMagician,
       description:
       'Math-magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to do different calculations using the Math JS library. It is built with React and it is fully responsive.',
-      technologies: ['React', 'Redux', 'CSS'],
+      technologies: ['React', 'Redux', 'CSS', 'REST API'],
       demo: 'https://math-magicians-full-website.onrender.com/',
       source: 'https://github.com/yodit93/Math-magicians',
     },
@@ -63,7 +63,7 @@ export const desktopProjects = [
       featuredImage: movieApp,
       description:
       'Movie App is a dynamic website built with react components and redux store. It allows users to access list of movies or shows. It is responsive and can be used on mobile devices. The project was built using the YouTube video lesson by Dipesh Malvia',
-      technologies: ['React', 'Redux', 'CSS3'],
+      technologies: ['React', 'Redux', 'CSS3', 'REST API'],
       demo: 'https://movie-app-t8te.onrender.com',
       source: 'https://github.com/yodit93/movie-app',
     },
