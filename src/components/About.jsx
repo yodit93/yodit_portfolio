@@ -104,23 +104,22 @@ const About = () => {
                     </div>
                     <ul className="lang-container-lists skills hide-list" ref={skillCont}>
                         <li className="flex">
-                            {/* <img className="flex-img" src="images/about-img/Icon - Chevron - Right - Larger.svg" alt=""/> */}
+                            
                             <p>Git/GitHub</p>
                         </li>
                         <li className="flex">
-                            {/* <img className="flex-img" src="images/about-img/Icon - Chevron - Right - Larger.svg" alt=""/> */}
+                            
                             <p>Remote/Pair-programming</p>
                         </li>
                         <li className="flex">
-                            {/* <img className="flex-img" src="images/about-img/Icon - Chevron - Right - Larger.svg" alt=""/> */}
+                            
                             <p>Mentoring/Code-review</p>
                         </li>
                         <li className="flex">
-                            {/* <img className="flex-img" src="images/about-img/Icon - Chevron - Right - Larger.svg" alt=""/> */}
+                            
                             <p>Communication/Teamwork</p>
                         </li>
                         <li className="flex">
-                            {/* <img className="flex-img" src="images/about-img/Icon - Chevron - Right - Larger.svg" alt=""/> */}
                             <p>RSpec/Capybara/Jest</p>
                         </li>
                     </ul>

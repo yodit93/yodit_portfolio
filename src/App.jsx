@@ -14,10 +14,10 @@ function App() {
           <Navigation />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/yodit_portfolio/portfolio" element={<Portfolio />} />
-            <Route path="/yodit_portfolio/about" element={<About />} />
-            <Route path="/yodit_portfolio/contact" element={<Contact />} />
-            <Route path="/yodit_portfolio/details/:id" element={<DetailsPage />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/details/:id" element={<DetailsPage />} />
           </Routes>
         </div>
       </Router>
