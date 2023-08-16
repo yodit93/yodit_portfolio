@@ -44,8 +44,8 @@ export const desktopProjects = [
       description: 
       'To-do list is a website which helps to organize tasks performed in a particular day. It lists the things that need to do and allows you to mark them as complete.',
       technologies: ['HTML', 'CSS3', 'JavaScript', 'Webpack'],
-      demo: 'https://todo-app-with-react.onrender.com',
-      source: 'https://github.com/yodit93/todo-app-react',
+      demo: 'https://yodit93.github.io/Todo-list-app/dist/',
+      source: 'https://github.com/yodit93/Todo-list-app',
     },
     {
       name: 'Math Magician',

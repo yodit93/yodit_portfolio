@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { desktopProjects, mobileProjects } from "./projects";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 const DetailsPage = () => {
     const {id} = useParams();
     const closeBtn = useRef(null);
@@ -28,8 +28,8 @@ const DetailsPage = () => {
                                     ))}
                                 </ul>
                                 <div className="see-demo-cont">
-                                    <Link className="see-demo" to={project.demo}>See Demo</Link>
-                                    <Link className="see-demo" to={project.source}>See Source</Link>
+                                    <a className="see-demo" href={project.demo} target="_blank" rel="noreferrer">See Demo</a>
+                                    <a className="see-demo" href={project.source} target="_blank" rel="noreferrer">See Source</a>
                                 </div>
                             </div>
                         </section>
@@ -51,8 +51,8 @@ const DetailsPage = () => {
                                         ))}
                                     </ul>
                                     <div className="see-demo-cont">
-                                        <Link className="see-demo" to={project.demo}>See Demo</Link>
-                                        <Link className="see-demo" to={project.source}>See Source</Link>
+                                        <a className="see-demo" href={project.demo} target="_blank" rel="noreferrer">See Demo</a>
+                                        <a className="see-demo" href={project.source} target="_blank" rel="noreferrer">See Source</a>
                                     </div>
                                 </div>
                             </div>

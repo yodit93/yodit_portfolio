@@ -2,13 +2,24 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faTwitter, faAngellist } from '@fortawesome/free-brands-svg-icons';
 import {FaMediumM} from 'react-icons/fa';
 import {TbBrandGithubFilled} from 'react-icons/tb';
+// import { useTypewriter, Cursor } from 'react-simple-typewriter';
+import { Typewriter } from 'react-simple-typewriter';
 
 const Home = () => {
     return ( 
         <div className="home-container">
             <div className="wrapp-align">
                 <h1 className="name">Hey there !<span>I&apos;am Yodit Abebe</span></h1>
-                <h4 className="profession">Full Stack Developer</h4>
+                <h4 className="profession">
+                    <Typewriter
+                        words={['Software Engineer', 'Full Stack Developer', 'Frontend Developer', 'Backend Developer']}
+                        loop
+                        cursor
+                        cursorStyle='|'
+                        typeSpeed={50}
+                        deleteSpeed={50}
+                    />
+                </h4>
                 <p className="abt">I enjoy bridging the gap between engineering and design
                 combining my technical knowledge with my keen eye for design to create a beautiful product. 
                 My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect 
