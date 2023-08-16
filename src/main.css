@@ -205,9 +205,9 @@ ul {
 }
 
 .project-picture-container {
-  max-width: 300px;
+  max-width: 250px;
   margin: auto;
-  height: 300px;
+  height: 250px;
   position: relative;
 }
 
