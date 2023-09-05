@@ -178,7 +178,7 @@ ul {
 
 .portfolio-cont {
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 1rem;
   background-color: white;
 }
@@ -198,6 +198,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .portfolio.desktop {
@@ -205,9 +206,9 @@ ul {
 }
 
 .project-picture-container {
-  max-width: 250px;
+  max-width: 280px;
   margin: auto;
-  height: 250px;
+  height: 295px;
   position: relative;
 }
 
@@ -244,6 +245,7 @@ ul {
   gap: 1rem;
   width: 100%;
   height: 100%;
+  padding: 0 0.5rem;
   border-radius: 40px 5px 40px 5px;
   font-weight: 700;
 }
@@ -255,8 +257,7 @@ ul {
 }
 
 .project-description {
-  margin-left: 1rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .project-stacks {
@@ -806,7 +807,7 @@ ul {
     width: 90%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3, 30%);
+    grid-template-columns: repeat(2, 50%);
     justify-content: center;
     row-gap: 2rem;
   }
@@ -817,7 +818,8 @@ ul {
   }
 
   .project-picture-container {
-    height: 100%;
+    max-width: 300px;
+    height: 300px;
   }
 
   .project-picture-container img {
@@ -829,22 +831,7 @@ ul {
   }
 
   .project-info {
-    gap: 0.3rem;
-  }
-
-  .project-title {
-    font-size: 1.2rem;
-    margin-top: 0.7rem;
-  }
-
-  .project-description {
-    margin-left: 0.4rem;
-    font-size: 0.7rem;
-  }
-
-  .project-tech {
-    font-size: 0.6rem;
-    padding: 2px 0.3rem;
+    gap: 1.2rem;
   }
 
   .project-link {
@@ -944,7 +931,7 @@ ul {
 
   .project-image-container {
     max-width: 80%;
-    height: 85%;
+    height: 65%;
   }
 
   .proj-details {
@@ -1085,7 +1072,8 @@ ul {
   }
 
   .project-picture-container {
-    height: 100%;
+    max-width: 300px;
+    height: 300px;
   }
 
   .project-picture-container img {
