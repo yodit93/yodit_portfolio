@@ -5,6 +5,7 @@ import todoList from '../assets/image/todo-list.png';
 import mathMagician from '../assets/image/math-magician.png';
 import movieApp from '../assets/image/movieapp.png';
 import budgetApp from '../assets/image/budget-app.png';
+import dynamicForm from '../assets/image/dynamicformbuilder.png';
 
 export const desktopProjects = [
     {
@@ -67,6 +68,16 @@ export const desktopProjects = [
       demo: 'https://movie-app-t8te.onrender.com',
       source: 'https://github.com/yodit93/movie-app',
     },
+    {
+      name: 'Form Builder',
+      id: 'id7',
+      featuredImage: dynamicForm,
+      description:
+      'Form builder is a web application that allows users to create forms dynamically. The user can add different types of fields to the form and also delete them. The user can also preview the form before submitting it',
+      technologies: ['React', 'Redux', 'CSS3', 'Ant Design'],
+      demo: 'https://yodit93.github.io/dynamic-form-builder/',
+      source: 'https://github.com/yodit93/dynamic-form-builder',
+    } 
 ];
 
 export const mobileProjects = [
@@ -110,5 +121,15 @@ export const mobileProjects = [
     demo: 'https://budget-app-f1tr.onrender.com',
     source: 'https://github.com/yodit93/budget-app/tree/budget_app',
   },
+  {
+    name: 'Form Builder',
+    id: 'id5',
+    featuredImage: dynamicForm,
+    description:
+    'Form builder is a web application that allows users to create forms dynamically. The user can add different types of fields to the form and also delete them. The user can also preview the form before submitting it',
+    technologies: ['React', 'Redux', 'CSS3', 'Ant Design'],
+    demo: 'https://yodit93.github.io/dynamic-form-builder/',
+    source: 'https://github.com/yodit93/dynamic-form-builder',
+  } 
   
 ];
