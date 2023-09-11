@@ -206,9 +206,9 @@ ul {
 }
 
 .project-picture-container {
-  max-width: 280px;
+  width: 270px;
+  aspect-ratio: 1/1;
   margin: auto;
-  height: 295px;
   position: relative;
 }
 
@@ -818,8 +818,7 @@ ul {
   }
 
   .project-picture-container {
-    max-width: 300px;
-    height: 300px;
+    width: 300px;
   }
 
   .project-picture-container img {
@@ -1072,8 +1071,7 @@ ul {
   }
 
   .project-picture-container {
-    max-width: 300px;
-    height: 300px;
+    width: 300px;
   }
 
   .project-picture-container img {
