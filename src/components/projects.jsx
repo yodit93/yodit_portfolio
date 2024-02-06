@@ -36,7 +36,7 @@ export const desktopProjects = [
     description:
     'Movie App is a dynamic website built with react components and redux store. It allows users to access list of movies or shows. It is responsive and can be used on mobile devices. The project was built using the YouTube video lesson by Dipesh Malvia',
     technologies: ['React', 'Redux', 'CSS3', 'REST API'],
-    demo: 'https://movie-app-t8te.onrender.com',
+    demo: 'https://listing-movie-app.netlify.app/',
     source: 'https://github.com/yodit93/movie-app',
   },
   {
@@ -46,7 +46,7 @@ export const desktopProjects = [
     description:
     'Math-magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to do different calculations using the Math JS library. It is built with React and it is fully responsive.',
     technologies: ['React', 'Redux', 'CSS', 'REST API'],
-    demo: 'https://math-magicians-full-website.onrender.com/',
+    demo: 'https://math-magician-web-app.netlify.app/',
     source: 'https://github.com/yodit93/Math-magicians',
   },
   {
@@ -56,7 +56,7 @@ export const desktopProjects = [
     description:
     'A pokemon website is designed for children and for adults who used to love pokemon games in their childhood. From the website, users could access the different creatures which inhabit the world of pokemon games. Users can give like for the creatures which they liked most and can also write their insights in the comments portion.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    demo: 'https://yodit93.github.io/JavaScript-capstone-group-project/dist',
+    demo: 'https://pokemon-game-creatures.netlify.app/',
     source: 'https://github.com/yodit93/JavaScript-capstone-group-project',
   },
   {
@@ -119,7 +119,7 @@ export const mobileProjects = [
     description:
     'Movie App is a dynamic website built with react components and redux store. It allows users to access list of movies or shows. It is responsive and can be used on mobile devices. The project was built using the YouTube video lesson by Dipesh Malvia',
     technologies: ['React', 'Redux', 'CSS3'],
-    demo: 'https://movie-app-t8te.onrender.com',
+    demo: 'https://listing-movie-app.netlify.app/',
     source: 'https://github.com/yodit93/movie-app',
   },
   {
@@ -129,7 +129,7 @@ export const mobileProjects = [
     description:
     'A pokemon website is designed for children and for adults who used to love pokemon games in their childhood. From the website, users could access the different creatures which inhabit the world of pokemon games. Users can give like for the creatures which they liked most and can also write their insights in the comments portion.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    demo: 'https://yodit93.github.io/JavaScript-capstone-group-project/dist',
+    demo: 'https://pokemon-game-creatures.netlify.app/',
     source: 'https://github.com/yodit93/JavaScript-capstone-group-project',
   },
   {
