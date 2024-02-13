@@ -103,8 +103,18 @@ export const mobileProjects = [
     source: 'https://github.com/yodit93/car-reservation-front-end',
   },
   {
-    name: 'Form Builder',
+    name: 'Budget App',
     id: 'id2',
+    featuredImage: budgetApp,
+    description:
+    'Budget app is a full stack mobile application that allows users to create a budget and track their expenses. The user can create a budget category and add expenses to it. ',
+    technologies: ['Ruby on Rails', 'CSS3'],
+    demo: 'https://d1tz1bjmhejm36.cloudfront.net/',
+    source: 'https://github.com/yodit93/budget-app',
+  },
+  {
+    name: 'Form Builder',
+    id: 'id3',
     featuredImage: dynamicForm,
     description:
     'Form builder is a web application that allows users to create forms dynamically. The user can add different types of fields to the form and also delete them. The user can also preview the form before submitting it',
@@ -114,7 +124,7 @@ export const mobileProjects = [
   },
   {
     name: 'Movie App',
-    id: 'id3',
+    id: 'id4',
     featuredImage: movieApp,
     description:
     'Movie App is a dynamic website built with react components and redux store. It allows users to access list of movies or shows. It is responsive and can be used on mobile devices. The project was built using the YouTube video lesson by Dipesh Malvia',
@@ -124,7 +134,7 @@ export const mobileProjects = [
   },
   {
     name: 'PoKemon',
-    id: 'id4',
+    id: 'id5',
     featuredImage: pokemon,
     description:
     'A pokemon website is designed for children and for adults who used to love pokemon games in their childhood. From the website, users could access the different creatures which inhabit the world of pokemon games. Users can give like for the creatures which they liked most and can also write their insights in the comments portion.',
@@ -134,7 +144,7 @@ export const mobileProjects = [
   },
   {
     name: 'GEMS',
-    id: 'id5',
+    id: 'id6',
     featuredImage: gems,
     description:
     'A GEMS website helps motivational speech lovers to get information about the program details',
