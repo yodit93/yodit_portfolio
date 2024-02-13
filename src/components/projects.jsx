@@ -16,7 +16,7 @@ export const desktopProjects = [
     description:
     'Cabooker is a user-friendly and efficient car booking application that empowers users to reserve their preferred vehicles seamlessly. Whether you need a car for a business trip, vacation, or simply for your daily commute, Cabooker offers a diverse selection of cars to suit your needs.',
     technologies: ['Ruby on Rails', 'React', 'Redux', 'CSS3'],
-    demo: 'https://car-reservation-app.onrender.com',
+    demo: 'https://car-reservation-front-end.netlify.app',
     source: 'https://github.com/yodit93/car-reservation-front-end',
   },
   {
@@ -99,7 +99,7 @@ export const mobileProjects = [
     description:
     'Cabooker is a user-friendly and efficient car booking application that empowers users to reserve their preferred vehicles seamlessly. Whether you need a car for a business trip, vacation, or simply for your daily commute, Cabooker offers a diverse selection of cars to suit your needs.',
     technologies: ['Ruby on Rails', 'React', 'Redux', 'CSS3'],
-    demo: 'https://car-reservation-app.onrender.com',
+    demo: 'https://car-reservation-front-end.netlify.app',
     source: 'https://github.com/yodit93/car-reservation-front-end',
   },
   {
