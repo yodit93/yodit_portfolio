@@ -1,12 +1,12 @@
-import gems from '../assets/image/gems1.png';
+import gems from '../assets/image/gems.png';
 import awesomeBooks from '../assets/image/awesome-books.png';
 import pokemon from '../assets/image/pokemon.png';
 import todoList from '../assets/image/todo-list.png';
 import mathMagician from '../assets/image/math-magician.png';
 import movieApp from '../assets/image/movieapp.png';
-import budgetApp from '../assets/image/budget-app.png';
 import dynamicForm from '../assets/image/dynamicformbuilder.png';
 import carBooker from '../assets/image/carbooker.png';
+import aiViews from '../assets/image/ai-views.png';
 
 export const desktopProjects = [
   {
@@ -20,8 +20,18 @@ export const desktopProjects = [
     source: 'https://github.com/yodit93/car-reservation-front-end',
   },
   {
-    name: 'Form Builder',
+    name: 'AI Views',
     id: 'id2',
+    featuredImage: aiViews,
+    description:
+    'AI-Views is a website that promotes intelligent agents trained to solve sales challenges. The main feature of this project is offering solutions and services related to improving sales through the use of smart agents.',
+    technologies: ['HTML', 'CSS3', 'JavaScript'],
+    demo: 'https://yodit93.github.io/AI-Views/',
+    source: 'https://github.com/yodit93/AI-Views'
+  },
+  {
+    name: 'Form Builder',
+    id: 'id3',
     featuredImage: dynamicForm,
     description:
     'Form builder is a web application that allows users to create forms dynamically. The user can add different types of fields to the form and also delete them. The user can also preview the form before submitting it',
@@ -31,7 +41,7 @@ export const desktopProjects = [
   },
   {
     name: 'Movie App',
-    id: 'id3',
+    id: 'id4',
     featuredImage: movieApp,
     description:
     'Movie App is a dynamic website built with react components and redux store. It allows users to access list of movies or shows. It is responsive and can be used on mobile devices. The project was built using the YouTube video lesson by Dipesh Malvia',
@@ -41,7 +51,7 @@ export const desktopProjects = [
   },
   {
     name: 'Math Magician',
-    id: 'id4',
+    id: 'id5',
     featuredImage: mathMagician,
     description:
     'Math-magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to do different calculations using the Math JS library. It is built with React and it is fully responsive.',
@@ -51,7 +61,7 @@ export const desktopProjects = [
   },
   {
     name: 'PoKemon',
-    id: 'id5',
+    id: 'id6',
     featuredImage: pokemon,
     description:
     'A pokemon website is designed for children and for adults who used to love pokemon games in their childhood. From the website, users could access the different creatures which inhabit the world of pokemon games. Users can give like for the creatures which they liked most and can also write their insights in the comments portion.',
@@ -61,7 +71,7 @@ export const desktopProjects = [
   },
   {
     name: 'Todo List',
-    id: 'id6',
+    id: 'id7',
     featuredImage: todoList,
     description: 
     'To-do list is a website which helps to organize tasks performed in a particular day. It lists the things that need to do and allows you to mark them as complete.',
@@ -71,7 +81,7 @@ export const desktopProjects = [
   },
   {
     name: 'GEMS',
-    id: 'id7',
+    id: 'id8',
     featuredImage: gems,
     description:
     'A GEMS website helps motivational speech lovers to get information about the program details',
@@ -81,7 +91,7 @@ export const desktopProjects = [
   },
   {
     name: 'Awesome Books',
-    id: 'id8',
+    id: 'id9',
     featuredImage: awesomeBooks,
     description:
     'Awesome books is a simple website that displays a list of books and allows users to add and remove books from that list.',
@@ -103,8 +113,18 @@ export const mobileProjects = [
     source: 'https://github.com/yodit93/car-reservation-front-end',
   },
   {
-    name: 'Form Builder',
+    name: 'AI Views',
     id: 'id2',
+    featuredImage: aiViews,
+    description:
+    'AI-Views is a website that promotes intelligent agents trained to solve sales challenges. The main feature of this project is offering solutions and services related to improving sales through the use of smart agents.',
+    technologies: ['HTML', 'CSS3', 'JavaScript'],
+    demo: 'https://yodit93.github.io/AI-Views/',
+    source: 'https://github.com/yodit93/AI-Views'
+  },
+  {
+    name: 'Form Builder',
+    id: 'id3',
     featuredImage: dynamicForm,
     description:
     'Form builder is a web application that allows users to create forms dynamically. The user can add different types of fields to the form and also delete them. The user can also preview the form before submitting it',
@@ -114,7 +134,7 @@ export const mobileProjects = [
   },
   {
     name: 'Movie App',
-    id: 'id3',
+    id: 'id4',
     featuredImage: movieApp,
     description:
     'Movie App is a dynamic website built with react components and redux store. It allows users to access list of movies or shows. It is responsive and can be used on mobile devices. The project was built using the YouTube video lesson by Dipesh Malvia',
@@ -124,7 +144,7 @@ export const mobileProjects = [
   },
   {
     name: 'PoKemon',
-    id: 'id4',
+    id: 'id5',
     featuredImage: pokemon,
     description:
     'A pokemon website is designed for children and for adults who used to love pokemon games in their childhood. From the website, users could access the different creatures which inhabit the world of pokemon games. Users can give like for the creatures which they liked most and can also write their insights in the comments portion.',
@@ -134,7 +154,7 @@ export const mobileProjects = [
   },
   {
     name: 'GEMS',
-    id: 'id5',
+    id: 'id6',
     featuredImage: gems,
     description:
     'A GEMS website helps motivational speech lovers to get information about the program details',
