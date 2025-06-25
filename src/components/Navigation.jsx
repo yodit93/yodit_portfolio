@@ -13,15 +13,15 @@ const Navigation = () => {
     };
     return (
         <nav className="nav-bar">
-           <NavLink className="my-name" to="/yodit_portfolio">Yodit A.</NavLink>
+           <NavLink className="my-name" to="/">Yodit A.</NavLink>
             <FontAwesomeIcon className="hum-icon" icon={faBars} onClick={handleShow}/>
             <div className="click-event" ref={navList}>
                 <div className="close-btn" ref={closeBtn} onClick={handleHide}>&#10005;</div>
                 <div className="nav-links" onClick={handleHide}>
-                    <NavLink className="link-home" to="/yodit_portfolio">Home</NavLink>
-                    <NavLink className="nav-link" to="/yodit_portfolio/portfolio">Portfolio</NavLink>
-                    <NavLink className="nav-link" to="/yodit_portfolio/about">About</NavLink>
-                    <NavLink className="nav-link" to="/yodit_portfolio/contact">Contact</NavLink>
+                    <NavLink className="link-home" to="/">Home</NavLink>
+                    <NavLink className="nav-link" to="/portfolio">Portfolio</NavLink>
+                    <NavLink className="nav-link" to="/about">About</NavLink>
+                    <NavLink className="nav-link" to="/contact">Contact</NavLink>
                 </div>
             </div>
         </nav>
