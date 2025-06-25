@@ -20,7 +20,7 @@
 
 # 📖 Portfolio: <a name="about-project"></a>
 
-> Portfolio project is a website that showcases my skills and projects I have worked on. It is a responsive website that works on all devices. It is built with React-Vite and CSS3.
+> My Portfolio showcases my skills and projects I have worked on. It is a responsive website that works on all devices. It is built with React-Vite and CSS3.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,7 +86,6 @@ Clone this repository to your desired folder:
 - LinkedIn: [Yodit Abebe](https://www.linkedin.com/in/yodit-abebe-ayalew/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
