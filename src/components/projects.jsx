@@ -56,7 +56,7 @@ export const desktopProjects = [
     description:
     'Math-magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to do different calculations using the Math JS library. It is built with React and it is fully responsive.',
     technologies: ['React', 'Redux', 'CSS', 'REST API'],
-    demo: 'https://math-magician-web-app.netlify.app/',
+    demo: 'https://math-magicians-odjlfhj4w-yodits-projects-c31925a8.vercel.app/',
     source: 'https://github.com/yodit93/Math-magicians',
   },
   {
@@ -77,7 +77,7 @@ export const desktopProjects = [
     'To-do list is a website which helps to organize tasks performed in a particular day. It lists the things that need to do and allows you to mark them as complete.',
     technologies: ['HTML', 'CSS3', 'JavaScript', 'Webpack'],
     demo: 'https://yodit93.github.io/Todo-list-app/dist/',
-    source: 'https://github.com/yodit93/Todo-list-app',
+    source: 'https://todo-list-app-two-virid.vercel.app/',
   },
   {
     name: 'GEMS',
