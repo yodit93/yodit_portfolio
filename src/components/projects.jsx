@@ -19,16 +19,16 @@ export const desktopProjects = [
     demo: 'https://car-reservation-app.onrender.com',
     source: 'https://github.com/yodit93/car-reservation-front-end',
   },
-  {
-    name: 'AI Views',
-    id: 'id2',
-    featuredImage: aiViews,
-    description:
-    'AI-Views is a website that promotes intelligent agents trained to solve sales challenges. The main feature of this project is offering solutions and services related to improving sales through the use of smart agents.',
-    technologies: ['HTML', 'CSS3', 'JavaScript'],
-    demo: 'https://yodit93.github.io/AI-Views/',
-    source: 'https://github.com/yodit93/AI-Views'
-  },
+  // {
+  //   name: 'AI Views',
+  //   id: 'id2',
+  //   featuredImage: aiViews,
+  //   description:
+  //   'AI-Views is a website that promotes intelligent agents trained to solve sales challenges. The main feature of this project is offering solutions and services related to improving sales through the use of smart agents.',
+  //   technologies: ['HTML', 'CSS3', 'JavaScript'],
+  //   demo: 'https://yodit93.github.io/AI-Views/',
+  //   source: 'https://github.com/yodit93/AI-Views'
+  // },
   {
     name: 'Form Builder',
     id: 'id3',
@@ -36,7 +36,7 @@ export const desktopProjects = [
     description:
     'Form builder is a web application that allows users to create forms dynamically. The user can add different types of fields to the form and also delete them. The user can also preview the form before submitting it',
     technologies: ['React', 'Redux', 'CSS3', 'Ant Design'],
-    demo: 'https://yodit93.github.io/dynamic-form-builder/',
+    demo: 'https://dynamic-form-builder-pi.vercel.app/',
     source: 'https://github.com/yodit93/dynamic-form-builder',
   },
   {
@@ -112,16 +112,16 @@ export const mobileProjects = [
     demo: 'https://car-reservation-app.onrender.com',
     source: 'https://github.com/yodit93/car-reservation-front-end',
   },
-  {
-    name: 'AI Views',
-    id: 'id2',
-    featuredImage: aiViews,
-    description:
-    'AI-Views is a website that promotes intelligent agents trained to solve sales challenges. The main feature of this project is offering solutions and services related to improving sales through the use of smart agents.',
-    technologies: ['HTML', 'CSS3', 'JavaScript'],
-    demo: 'https://yodit93.github.io/AI-Views/',
-    source: 'https://github.com/yodit93/AI-Views'
-  },
+  // {
+  //   name: 'AI Views',
+  //   id: 'id2',
+  //   featuredImage: aiViews,
+  //   description:
+  //   'AI-Views is a website that promotes intelligent agents trained to solve sales challenges. The main feature of this project is offering solutions and services related to improving sales through the use of smart agents.',
+  //   technologies: ['HTML', 'CSS3', 'JavaScript'],
+  //   demo: 'https://yodit93.github.io/AI-Views/',
+  //   source: 'https://github.com/yodit93/AI-Views'
+  // },
   {
     name: 'Form Builder',
     id: 'id3',
@@ -129,7 +129,7 @@ export const mobileProjects = [
     description:
     'Form builder is a web application that allows users to create forms dynamically. The user can add different types of fields to the form and also delete them. The user can also preview the form before submitting it',
     technologies: ['React', 'Redux', 'CSS3', 'Ant Design'],
-    demo: 'https://yodit93.github.io/dynamic-form-builder/',
+    demo: 'https://dynamic-form-builder-pi.vercel.app/',
     source: 'https://github.com/yodit93/dynamic-form-builder',
   },
   {
