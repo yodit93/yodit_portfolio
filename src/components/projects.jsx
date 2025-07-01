@@ -96,7 +96,7 @@ export const desktopProjects = [
     description:
     'Awesome books is a simple website that displays a list of books and allows users to add and remove books from that list.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    demo: 'https://yodit93.github.io/Awesome-Books-ES6/',
+    demo: 'https://awesome-books-es-6-five.vercel.app/',
     source: 'https://github.com/yodit93/Awesome-Books-ES6',
   },
 ];
