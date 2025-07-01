@@ -86,7 +86,7 @@ export const desktopProjects = [
     description:
     'A GEMS website helps motivational speech lovers to get information about the program details',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    demo: 'https://yodit93.github.io/GEMS-website/',
+    demo: 'https://gems-website-omega.vercel.app/',
     source: 'https://github.com/yodit93/GEMS-website.git',
   },
   {
