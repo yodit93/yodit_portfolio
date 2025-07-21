@@ -34,7 +34,6 @@
     Git, GitHub, Linters
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
